@@ -1,5 +1,5 @@
 {
-  "name": "organiq",
+  "name": "organiq-cli",
   "version": "0.0.1",
   "description": "Organiq Comand Line Interface.",
   "main": "./lib/cli.js",
