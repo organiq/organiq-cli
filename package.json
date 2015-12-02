@@ -2,14 +2,13 @@
   "name": "organiq-cli",
   "version": "0.0.1",
   "description": "Organiq Comand Line Interface.",
-  "main": "./lib/cli.js",
-  "lib": {
-    "organiq": "./lib/cli.js"
+  "bin": {
+    "organiq": "./bin/cli.js"
   },
   "scripts": {
     "test": "jshint ./lib && mocha",
     "lint": "jshint ./lib",
-    "browserify": "browserify -x ws -r ./lib/index.js:organiq -o build/organiq.js",
+    "browserify": "browserify -x ws -r ./bin/cli.js:organiq -o build/organiq.js",
     "t": "mocha"
   },
   "repository": {
