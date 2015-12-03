@@ -6,7 +6,7 @@
 var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs');
 var rest = require('restler');
-var prompt = require('prompt');//cli.js: line 7, col 5, Redefinition of 'prompt'.
+var prompt = require('prompt');
 //var debug = require('debug')('organiq:cli');
 var osenv = require('osenv');
 var path = require('path');

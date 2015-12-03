@@ -6,8 +6,8 @@
     "organiq": "./bin/cli.js"
   },
   "scripts": {
-    "test": "jshint ./lib && mocha",
-    "lint": "jshint ./lib",
+    "test": "jshint ./bin && mocha",
+    "lint": "jshint ./bin",
     "browserify": "browserify -x ws -r ./bin/cli.js:organiq -o build/organiq.js",
     "t": "mocha"
   },
