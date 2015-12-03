@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 // Copyright (c) 2015 Organiq, Inc. All Rights Reserved.
 
-/* globals prompt: true */
-
 var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs');
 var rest = require('restler');
