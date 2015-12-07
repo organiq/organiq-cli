@@ -8,7 +8,6 @@
   "scripts": {
     "test": "jshint ./bin && mocha",
     "lint": "jshint ./bin",
-    "browserify": "browserify -x ws -r ./bin/cli.js:organiq -o build/organiq.js",
     "t": "mocha"
   },
   "repository": {
