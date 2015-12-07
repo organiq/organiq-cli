@@ -47,10 +47,10 @@ function readPackageData(global) {
     var s = fs.readFileSync(optionsPath, 'utf8');
     packageData = JSON.parse(s);
 	if (global)	{
-		_globalPackageData = packageData;
+	  _globalPackageData = packageData;
 	}
 	else {
-		_packageData = packageData;
+      _packageData = packageData;
 	}
   }
   return packageData || {};
